@@ -37,11 +37,15 @@
 }
 /* second box navbar */
 
-.nav-addr{
+.nav-border{
+   
     height:47px;
     width: 130px;
+    justify-content: center;
+    align-items: center;
     
 }
+
 
 .first-add{
     color:#cccccc;
@@ -62,6 +66,8 @@
 }
 
 /* third box on navabar */
+
+
 .nav-search{
     background-color: pink;
     width: 650px;
@@ -70,6 +76,9 @@
     border-radius: 5px;
     justify-content: space-evenly;
 
+}
+.nav-search:hover{
+    border:2px solid orange;
 }
 #product{
     border-bottom-left-radius: 5px;
@@ -95,4 +104,69 @@
    background-color: orange;
    border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+/* 4 box */
+.span{
+    font-size: 0.2rem;
+
+}
+
+.nav-second{
+ 
+    font-size: 0.85rem;
+    font-weight:700;
+}
+
+/* 6 box */
+
+.nav-cart i{
+    
+   font-size: 30px;
+}
+.nav-cart{
+    display: flex;
+}
+/* 
+Panel start */
+
+.panel{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly; 
+    background-color: #0F1111;
+    color:white;
+    height: 40px;
+
+
+}
+.panel-options p{
+    display:inline;
+    margin-left:10px;
+    
+}
+.panel-options{
+    width:70%;
+    font-size: 0.85rem;
+}
+.panel-offer{
+    font-size:0.9rem;
+}
+
+/* hero section */
+
+.hero-section{
+    background-image: url("home1.jpg");
+    height: 600px;
+    background-size:cover;
+}
+.hero-msg{
+    background-color: white;
+    height:40px;
+    display: flex;
+    align-items:center;
+    justify-content:center
+}
+.hero-msg a{
+    color:#f00785;
 }
