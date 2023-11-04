@@ -1,0 +1,98 @@
+*{
+    font-family: arial;
+    border:border-box;
+    margin: 0; 
+}
+
+.nav{
+    background-color: #0f1111;
+    height :60px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+   
+    display: flex;
+    height: 48px;
+    width: 142px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("logo1.png");
+    background-size: cover;
+    height:47px;
+    width: 130px;
+
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover {
+    border:2px solid white;
+}
+/* second box navbar */
+
+.nav-addr{
+    height:47px;
+    width: 130px;
+    
+}
+
+.first-add{
+    color:#cccccc;
+    font-size: 0.90rem;
+    margin-left: 16px;
+   
+}
+.second-add{
+    
+    font-size: 1rem;
+    margin-left: 5px;
+
+}
+.addr-icon{
+   
+    display: flex;
+    align-items: center;
+}
+
+/* third box on navabar */
+.nav-search{
+    background-color: pink;
+    width: 650px;
+    height:45px ;
+    display:flex;
+    border-radius: 5px;
+    justify-content: space-evenly;
+
+}
+#product{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color:#f3f3f3;
+    width:50px;
+    text-align: center;
+    border:none;
+}
+.search-input{
+
+    width:100%;
+    border:none;
+    font-size: 1rem;
+
+}
+.search-icon{
+   width:45px;
+   display: flex;
+   font-size: 1.3rem;
+   align-items: center;
+   justify-content: center;
+   background-color: orange;
+   border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
