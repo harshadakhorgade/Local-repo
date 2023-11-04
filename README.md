@@ -1,3 +1,2 @@
 # Local-repo
-local repo
-hh
+this is clone of amazone home page
