@@ -249,7 +249,7 @@ ul a {
 /* footer panel 3 */
 
 .footer-panel3{
-    margin-top: 0.8px;
+    border-top: 0.5px solid white;
     background-color: #222f3d;
     height: 100px;
     display:flex;
@@ -258,19 +258,28 @@ ul a {
    
 }
 .footer-logo{
-   background-color: red;
+    background-image: url("logo1.png");
     background-size: cover;
-    height:47px;
-    width: 130px;
+    height:34px;
+    width: 97px;
 
   
 }
 .footer-end {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    height:50px;
+    justify-content: center; */
+    font-size: 0.80rem;
+    text-align: center;
+    height:70px;
     background-color: #001629;
     color:white;
-    font-size: 0.80rem;
+    
+}
+.footer-option{
+   padding-top:20px;
+    
+}
+.copyrite{
+    padding-top:8px;
 }
